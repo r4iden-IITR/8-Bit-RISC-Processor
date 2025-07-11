@@ -13,7 +13,7 @@ module ALU (
       3'b011: result = a | b;      // OR
       3'b100: result = a ^ b;      // XOR
       3'b101: result = ~(a | b);   // NOR
-      default: result = 16'h0000;
+      default: result = 8'h00;
     endcase
   	end
 endmodule

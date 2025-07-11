@@ -1,7 +1,7 @@
 module ALU (
-  input [15:0] a, b,
+  input [7:0] a, b,
   input [2:0] ctrl,       
-  output reg [15:0] result
+  output reg [7:0] result
 );
 
   always @(*) 
